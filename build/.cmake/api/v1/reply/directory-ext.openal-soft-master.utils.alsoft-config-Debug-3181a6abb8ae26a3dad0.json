@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ext/openal-soft-master/utils/alsoft-config",
+		"source" : "ext/openal-soft-master/utils/alsoft-config"
+	}
+}
