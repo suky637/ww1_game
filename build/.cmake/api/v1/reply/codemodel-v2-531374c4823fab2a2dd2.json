@@ -1,0 +1,435 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "ext/openal-soft-master",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.openal-soft-master-Debug-a2959ac38c356a2cb062.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ext/openal-soft-master",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "ext/openal-soft-master/fmt-11.0.2",
+					"jsonFile" : "directory-ext.openal-soft-master.fmt-11.0.2-Debug-cfc2246089e33cae1019.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ext/openal-soft-master/fmt-11.0.2",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "ext/openal-soft-master/utils/alsoft-config",
+					"jsonFile" : "directory-ext.openal-soft-master.utils.alsoft-config-Debug-3181a6abb8ae26a3dad0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "ext/openal-soft-master/utils/alsoft-config"
+				},
+				{
+					"build" : "ext/SFML-2.6.2",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2-Debug-4fc84c323baff7c5b762.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2"
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML-Debug-c72015c2c40ae40d375f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML"
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML/System",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML.System-Debug-2afe09d6d06ca83ac687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML/System",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML/Window",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML.Window-Debug-77479afa99ac9b8611ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML/Window",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML/Network",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML.Network-Debug-680a2de0b850610ab0a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML/Network",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML/Graphics",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML.Graphics-Debug-04059ef55962c2826e77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML/Graphics",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "ext/SFML-2.6.2/src/SFML/Audio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ext.SFML-2.6.2.src.SFML.Audio-Debug-295c7d3394f8115b08b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "ext/SFML-2.6.2/src/SFML/Audio",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "ext/json-develop",
+					"jsonFile" : "directory-ext.json-develop-Debug-6bbdf3b8c091b8d2952e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "ext/json-develop"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ww1_game",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OpenAL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ALSOFT_FMT",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "alsoft-config",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "SFML",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OpenAL::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-OpenAL-Debug-eccd07b782fbad445e92.json",
+					"name" : "OpenAL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aldebug::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-aldebug-Debug-ad411c0d9ae01014d9da.json",
+					"name" : "aldebug",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "allafplay::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-allafplay-Debug-092f2c35121a7d6ff85b.json",
+					"name" : "allafplay",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alrecord::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-alrecord-Debug-cb1e39dd172e56452058.json",
+					"name" : "alrecord",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alsoft.common::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-alsoft.common-Debug-f9543ef679d502fb07f3.json",
+					"name" : "alsoft.common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "alsoft.excommon::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-alsoft.excommon-Debug-7520b4b9dc66709cdcd2.json",
+					"name" : "alsoft.excommon",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "alsoft.fmt::@3b136a339899737b1eaa",
+					"jsonFile" : "target-alsoft.fmt-Debug-72d2feca7168b36da737.json",
+					"name" : "alsoft.fmt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "altonegen::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-altonegen-Debug-9c98af82cd4bfb3a0bc8.json",
+					"name" : "altonegen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clang-tidy-check::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-clang-tidy-check-Debug-c2cb52f6a38edd012892.json",
+					"name" : "clang-tidy-check",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "openal-info::@f9396e4a3af0abc6e36a",
+					"jsonFile" : "target-openal-info-Debug-c07c7444177a0aa4043a.json",
+					"name" : "openal-info",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "sfml-audio::@a69ae6a02981ad1b6783",
+					"jsonFile" : "target-sfml-audio-Debug-e9ed51eda706897a74e1.json",
+					"name" : "sfml-audio",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "sfml-graphics::@685a5ba534a30e0a0fe7",
+					"jsonFile" : "target-sfml-graphics-Debug-5f2e66b45bc5ff804a19.json",
+					"name" : "sfml-graphics",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "sfml-network::@c008a674b4d1879ff3cf",
+					"jsonFile" : "target-sfml-network-Debug-a43a81918c26b43755a5.json",
+					"name" : "sfml-network",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sfml-system::@c10825fe6f415a65c56a",
+					"jsonFile" : "target-sfml-system-Debug-40ec2119927d3808f0d0.json",
+					"name" : "sfml-system",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sfml-window::@d79e8343d8712577c9bc",
+					"jsonFile" : "target-sfml-window-Debug-4bc9fbbac3047d1f8ee2.json",
+					"name" : "sfml-window",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ww1_game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ww1_game-Debug-2834facf9b8e5639f036.json",
+					"name" : "ww1_game",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/suky/dev/ww1_game/build",
+		"source" : "/home/suky/dev/ww1_game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

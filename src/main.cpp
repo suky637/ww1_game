@@ -19,11 +19,10 @@ void doEvents(sf::RenderWindow* win, Game* game)
         }
         case sf::Event::MouseWheelScrolled:
         {
-            if (event.mouseWheelScroll.wheel == sf::Mouse::VerticalWheel)
-            {
-                float delta = event.mouseWheelScroll.delta;
-                game->scroll = delta;
-            }
+            if (event.mouseWheelScroll.wheel != sf::Mouse::VerticalWheel)
+                break;
+            float delta = event.mouseWheelScroll.delta;
+            game->scroll = delta;
             break;
             }
          default:
