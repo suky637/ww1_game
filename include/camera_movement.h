@@ -5,8 +5,7 @@
 #include <map>
 #include <memory>
 
-#include "utils.h"
-#include "scroll_wheel.h"
+#include "engine.h"
 
 class CameraMovement: public Script
 {

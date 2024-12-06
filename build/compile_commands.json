@@ -16,28 +16,48 @@
 },
 {
   "directory": "/home/suky/dev/ww1_game/build",
-  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/utils.cpp.o -c /home/suky/dev/ww1_game/src/utils.cpp",
-  "file": "/home/suky/dev/ww1_game/src/utils.cpp"
-},
-{
-  "directory": "/home/suky/dev/ww1_game/build",
-  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/engine.cpp.o -c /home/suky/dev/ww1_game/src/engine.cpp",
-  "file": "/home/suky/dev/ww1_game/src/engine.cpp"
-},
-{
-  "directory": "/home/suky/dev/ww1_game/build",
   "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o -c /home/suky/dev/ww1_game/src/camera_movement.cpp",
   "file": "/home/suky/dev/ww1_game/src/camera_movement.cpp"
 },
 {
   "directory": "/home/suky/dev/ww1_game/build",
-  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/scroll_wheel.cpp.o -c /home/suky/dev/ww1_game/src/scroll_wheel.cpp",
-  "file": "/home/suky/dev/ww1_game/src/scroll_wheel.cpp"
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib/Button.cpp.o -c /home/suky/dev/ww1_game/src/myguilib/Button.cpp",
+  "file": "/home/suky/dev/ww1_game/src/myguilib/Button.cpp"
 },
 {
   "directory": "/home/suky/dev/ww1_game/build",
-  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib.cpp.o -c /home/suky/dev/ww1_game/src/myguilib.cpp",
-  "file": "/home/suky/dev/ww1_game/src/myguilib.cpp"
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib/Component.cpp.o -c /home/suky/dev/ww1_game/src/myguilib/Component.cpp",
+  "file": "/home/suky/dev/ww1_game/src/myguilib/Component.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib/Frame.cpp.o -c /home/suky/dev/ww1_game/src/myguilib/Frame.cpp",
+  "file": "/home/suky/dev/ww1_game/src/myguilib/Frame.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib/GUI.cpp.o -c /home/suky/dev/ww1_game/src/myguilib/GUI.cpp",
+  "file": "/home/suky/dev/ww1_game/src/myguilib/GUI.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/myguilib/Label.cpp.o -c /home/suky/dev/ww1_game/src/myguilib/Label.cpp",
+  "file": "/home/suky/dev/ww1_game/src/myguilib/Label.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.o -c /home/suky/dev/ww1_game/src/engine/EngineFunctions.cpp",
+  "file": "/home/suky/dev/ww1_game/src/engine/EngineFunctions.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.o -c /home/suky/dev/ww1_game/src/engine/Scene.cpp",
+  "file": "/home/suky/dev/ww1_game/src/engine/Scene.cpp"
+},
+{
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/engine/Script.cpp.o -c /home/suky/dev/ww1_game/src/engine/Script.cpp",
+  "file": "/home/suky/dev/ww1_game/src/engine/Script.cpp"
 },
 {
   "directory": "/home/suky/dev/ww1_game/build/ext/openal-soft-master",

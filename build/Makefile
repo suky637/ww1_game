@@ -413,29 +413,77 @@ src/camera_movement.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/camera_movement.cpp.s
 .PHONY : src/camera_movement.cpp.s
 
-src/engine.o: src/engine.cpp.o
-.PHONY : src/engine.o
+src/engine/EngineFunctions.o: src/engine/EngineFunctions.cpp.o
+.PHONY : src/engine/EngineFunctions.o
 
 # target to build an object file
-src/engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine.cpp.o
-.PHONY : src/engine.cpp.o
+src/engine/EngineFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.o
+.PHONY : src/engine/EngineFunctions.cpp.o
 
-src/engine.i: src/engine.cpp.i
-.PHONY : src/engine.i
+src/engine/EngineFunctions.i: src/engine/EngineFunctions.cpp.i
+.PHONY : src/engine/EngineFunctions.i
 
 # target to preprocess a source file
-src/engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine.cpp.i
-.PHONY : src/engine.cpp.i
+src/engine/EngineFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.i
+.PHONY : src/engine/EngineFunctions.cpp.i
 
-src/engine.s: src/engine.cpp.s
-.PHONY : src/engine.s
+src/engine/EngineFunctions.s: src/engine/EngineFunctions.cpp.s
+.PHONY : src/engine/EngineFunctions.s
 
 # target to generate assembly for a file
-src/engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine.cpp.s
-.PHONY : src/engine.cpp.s
+src/engine/EngineFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.s
+.PHONY : src/engine/EngineFunctions.cpp.s
+
+src/engine/Scene.o: src/engine/Scene.cpp.o
+.PHONY : src/engine/Scene.o
+
+# target to build an object file
+src/engine/Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.o
+.PHONY : src/engine/Scene.cpp.o
+
+src/engine/Scene.i: src/engine/Scene.cpp.i
+.PHONY : src/engine/Scene.i
+
+# target to preprocess a source file
+src/engine/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.i
+.PHONY : src/engine/Scene.cpp.i
+
+src/engine/Scene.s: src/engine/Scene.cpp.s
+.PHONY : src/engine/Scene.s
+
+# target to generate assembly for a file
+src/engine/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.s
+.PHONY : src/engine/Scene.cpp.s
+
+src/engine/Script.o: src/engine/Script.cpp.o
+.PHONY : src/engine/Script.o
+
+# target to build an object file
+src/engine/Script.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Script.cpp.o
+.PHONY : src/engine/Script.cpp.o
+
+src/engine/Script.i: src/engine/Script.cpp.i
+.PHONY : src/engine/Script.i
+
+# target to preprocess a source file
+src/engine/Script.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Script.cpp.i
+.PHONY : src/engine/Script.cpp.i
+
+src/engine/Script.s: src/engine/Script.cpp.s
+.PHONY : src/engine/Script.s
+
+# target to generate assembly for a file
+src/engine/Script.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/engine/Script.cpp.s
+.PHONY : src/engine/Script.cpp.s
 
 src/gamelogic.o: src/gamelogic.cpp.o
 .PHONY : src/gamelogic.o
@@ -485,29 +533,125 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/myguilib.o: src/myguilib.cpp.o
-.PHONY : src/myguilib.o
+src/myguilib/Button.o: src/myguilib/Button.cpp.o
+.PHONY : src/myguilib/Button.o
 
 # target to build an object file
-src/myguilib.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib.cpp.o
-.PHONY : src/myguilib.cpp.o
+src/myguilib/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Button.cpp.o
+.PHONY : src/myguilib/Button.cpp.o
 
-src/myguilib.i: src/myguilib.cpp.i
-.PHONY : src/myguilib.i
+src/myguilib/Button.i: src/myguilib/Button.cpp.i
+.PHONY : src/myguilib/Button.i
 
 # target to preprocess a source file
-src/myguilib.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib.cpp.i
-.PHONY : src/myguilib.cpp.i
+src/myguilib/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Button.cpp.i
+.PHONY : src/myguilib/Button.cpp.i
 
-src/myguilib.s: src/myguilib.cpp.s
-.PHONY : src/myguilib.s
+src/myguilib/Button.s: src/myguilib/Button.cpp.s
+.PHONY : src/myguilib/Button.s
 
 # target to generate assembly for a file
-src/myguilib.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib.cpp.s
-.PHONY : src/myguilib.cpp.s
+src/myguilib/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Button.cpp.s
+.PHONY : src/myguilib/Button.cpp.s
+
+src/myguilib/Component.o: src/myguilib/Component.cpp.o
+.PHONY : src/myguilib/Component.o
+
+# target to build an object file
+src/myguilib/Component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Component.cpp.o
+.PHONY : src/myguilib/Component.cpp.o
+
+src/myguilib/Component.i: src/myguilib/Component.cpp.i
+.PHONY : src/myguilib/Component.i
+
+# target to preprocess a source file
+src/myguilib/Component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Component.cpp.i
+.PHONY : src/myguilib/Component.cpp.i
+
+src/myguilib/Component.s: src/myguilib/Component.cpp.s
+.PHONY : src/myguilib/Component.s
+
+# target to generate assembly for a file
+src/myguilib/Component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Component.cpp.s
+.PHONY : src/myguilib/Component.cpp.s
+
+src/myguilib/Frame.o: src/myguilib/Frame.cpp.o
+.PHONY : src/myguilib/Frame.o
+
+# target to build an object file
+src/myguilib/Frame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Frame.cpp.o
+.PHONY : src/myguilib/Frame.cpp.o
+
+src/myguilib/Frame.i: src/myguilib/Frame.cpp.i
+.PHONY : src/myguilib/Frame.i
+
+# target to preprocess a source file
+src/myguilib/Frame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Frame.cpp.i
+.PHONY : src/myguilib/Frame.cpp.i
+
+src/myguilib/Frame.s: src/myguilib/Frame.cpp.s
+.PHONY : src/myguilib/Frame.s
+
+# target to generate assembly for a file
+src/myguilib/Frame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Frame.cpp.s
+.PHONY : src/myguilib/Frame.cpp.s
+
+src/myguilib/GUI.o: src/myguilib/GUI.cpp.o
+.PHONY : src/myguilib/GUI.o
+
+# target to build an object file
+src/myguilib/GUI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/GUI.cpp.o
+.PHONY : src/myguilib/GUI.cpp.o
+
+src/myguilib/GUI.i: src/myguilib/GUI.cpp.i
+.PHONY : src/myguilib/GUI.i
+
+# target to preprocess a source file
+src/myguilib/GUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/GUI.cpp.i
+.PHONY : src/myguilib/GUI.cpp.i
+
+src/myguilib/GUI.s: src/myguilib/GUI.cpp.s
+.PHONY : src/myguilib/GUI.s
+
+# target to generate assembly for a file
+src/myguilib/GUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/GUI.cpp.s
+.PHONY : src/myguilib/GUI.cpp.s
+
+src/myguilib/Label.o: src/myguilib/Label.cpp.o
+.PHONY : src/myguilib/Label.o
+
+# target to build an object file
+src/myguilib/Label.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Label.cpp.o
+.PHONY : src/myguilib/Label.cpp.o
+
+src/myguilib/Label.i: src/myguilib/Label.cpp.i
+.PHONY : src/myguilib/Label.i
+
+# target to preprocess a source file
+src/myguilib/Label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Label.cpp.i
+.PHONY : src/myguilib/Label.cpp.i
+
+src/myguilib/Label.s: src/myguilib/Label.cpp.s
+.PHONY : src/myguilib/Label.s
+
+# target to generate assembly for a file
+src/myguilib/Label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/myguilib/Label.cpp.s
+.PHONY : src/myguilib/Label.cpp.s
 
 src/scene_map.o: src/scene_map.cpp.o
 .PHONY : src/scene_map.o
@@ -532,54 +676,6 @@ src/scene_map.s: src/scene_map.cpp.s
 src/scene_map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/scene_map.cpp.s
 .PHONY : src/scene_map.cpp.s
-
-src/scroll_wheel.o: src/scroll_wheel.cpp.o
-.PHONY : src/scroll_wheel.o
-
-# target to build an object file
-src/scroll_wheel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/scroll_wheel.cpp.o
-.PHONY : src/scroll_wheel.cpp.o
-
-src/scroll_wheel.i: src/scroll_wheel.cpp.i
-.PHONY : src/scroll_wheel.i
-
-# target to preprocess a source file
-src/scroll_wheel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/scroll_wheel.cpp.i
-.PHONY : src/scroll_wheel.cpp.i
-
-src/scroll_wheel.s: src/scroll_wheel.cpp.s
-.PHONY : src/scroll_wheel.s
-
-# target to generate assembly for a file
-src/scroll_wheel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/scroll_wheel.cpp.s
-.PHONY : src/scroll_wheel.cpp.s
-
-src/utils.o: src/utils.cpp.o
-.PHONY : src/utils.o
-
-# target to build an object file
-src/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/utils.cpp.o
-.PHONY : src/utils.cpp.o
-
-src/utils.i: src/utils.cpp.i
-.PHONY : src/utils.i
-
-# target to preprocess a source file
-src/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/utils.cpp.i
-.PHONY : src/utils.cpp.i
-
-src/utils.s: src/utils.cpp.s
-.PHONY : src/utils.s
-
-# target to generate assembly for a file
-src/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/utils.cpp.s
-.PHONY : src/utils.cpp.s
 
 # Help Target
 help:
@@ -614,27 +710,39 @@ help:
 	@echo "... src/camera_movement.o"
 	@echo "... src/camera_movement.i"
 	@echo "... src/camera_movement.s"
-	@echo "... src/engine.o"
-	@echo "... src/engine.i"
-	@echo "... src/engine.s"
+	@echo "... src/engine/EngineFunctions.o"
+	@echo "... src/engine/EngineFunctions.i"
+	@echo "... src/engine/EngineFunctions.s"
+	@echo "... src/engine/Scene.o"
+	@echo "... src/engine/Scene.i"
+	@echo "... src/engine/Scene.s"
+	@echo "... src/engine/Script.o"
+	@echo "... src/engine/Script.i"
+	@echo "... src/engine/Script.s"
 	@echo "... src/gamelogic.o"
 	@echo "... src/gamelogic.i"
 	@echo "... src/gamelogic.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/myguilib.o"
-	@echo "... src/myguilib.i"
-	@echo "... src/myguilib.s"
+	@echo "... src/myguilib/Button.o"
+	@echo "... src/myguilib/Button.i"
+	@echo "... src/myguilib/Button.s"
+	@echo "... src/myguilib/Component.o"
+	@echo "... src/myguilib/Component.i"
+	@echo "... src/myguilib/Component.s"
+	@echo "... src/myguilib/Frame.o"
+	@echo "... src/myguilib/Frame.i"
+	@echo "... src/myguilib/Frame.s"
+	@echo "... src/myguilib/GUI.o"
+	@echo "... src/myguilib/GUI.i"
+	@echo "... src/myguilib/GUI.s"
+	@echo "... src/myguilib/Label.o"
+	@echo "... src/myguilib/Label.i"
+	@echo "... src/myguilib/Label.s"
 	@echo "... src/scene_map.o"
 	@echo "... src/scene_map.i"
 	@echo "... src/scene_map.s"
-	@echo "... src/scroll_wheel.o"
-	@echo "... src/scroll_wheel.i"
-	@echo "... src/scroll_wheel.s"
-	@echo "... src/utils.o"
-	@echo "... src/utils.i"
-	@echo "... src/utils.s"
 .PHONY : help
 
 

@@ -399,6 +399,8 @@ CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o: \
  /usr/include/c++/11/any \
  /home/suky/dev/ww1_game/ext/json-develop/include/nlohmann/detail/macro_unscope.hpp \
  /home/suky/dev/ww1_game/ext/json-develop/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/suky/dev/ww1_game/include/utils.h \
- /home/suky/dev/ww1_game/include/scroll_wheel.h \
+ /home/suky/dev/ww1_game/include/engine.h \
+ /home/suky/dev/ww1_game/include/engine/Scene.h \
+ /home/suky/dev/ww1_game/include/engine/Script.h \
+ /home/suky/dev/ww1_game/include/engine/EngineFunctions.h \
  /usr/include/c++/11/math.h

@@ -20,11 +20,15 @@ add_executable(ww1_game
     src/main.cpp
     src/gamelogic.cpp
     src/scene_map.cpp
-    src/utils.cpp
-    src/engine.cpp
     src/camera_movement.cpp
-    src/scroll_wheel.cpp
-    src/myguilib.cpp
+    src/myguilib/Button.cpp
+    src/myguilib/Component.cpp
+    src/myguilib/Frame.cpp
+    src/myguilib/GUI.cpp
+    src/myguilib/Label.cpp
+    src/engine/EngineFunctions.cpp
+    src/engine/Scene.cpp
+    src/engine/Script.cpp
 )
 
 target_link_libraries(ww1_game sfml-audio sfml-graphics sfml-window sfml-system OpenAL nlohmann_json)

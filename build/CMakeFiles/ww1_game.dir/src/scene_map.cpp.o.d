@@ -397,7 +397,14 @@ CMakeFiles/ww1_game.dir/src/scene_map.cpp.o: \
  /home/suky/dev/ww1_game/ext/SFML-2.6.2/include/SFML/Graphics/Sprite.hpp \
  /home/suky/dev/ww1_game/ext/SFML-2.6.2/include/SFML/Graphics/Text.hpp \
  /home/suky/dev/ww1_game/ext/SFML-2.6.2/include/SFML/Graphics/VertexBuffer.hpp \
- /home/suky/dev/ww1_game/include/utils.h \
+ /home/suky/dev/ww1_game/include/engine.h \
+ /home/suky/dev/ww1_game/include/engine/Scene.h \
+ /home/suky/dev/ww1_game/include/engine/Script.h \
+ /home/suky/dev/ww1_game/include/engine/EngineFunctions.h \
  /home/suky/dev/ww1_game/include/camera_movement.h \
- /home/suky/dev/ww1_game/include/scroll_wheel.h \
- /home/suky/dev/ww1_game/include/myguilib.h
+ /home/suky/dev/ww1_game/include/myguilib.h \
+ /home/suky/dev/ww1_game/include/myguilib/Button.h \
+ /home/suky/dev/ww1_game/include/myguilib/Component.h \
+ /home/suky/dev/ww1_game/include/myguilib/GUI.h \
+ /home/suky/dev/ww1_game/include/myguilib/Frame.h \
+ /home/suky/dev/ww1_game/include/myguilib/Label.h
