@@ -22,10 +22,7 @@ void doEvents(sf::RenderWindow* win, Game* game)
             if (event.mouseWheelScroll.wheel == sf::Mouse::VerticalWheel)
             {
                 float delta = event.mouseWheelScroll.delta;
-                if (delta > 0)
-                    game->scroll = 1;
-                else if (delta < 0)
-                    game->scroll = -1;
+                game->scroll = delta;
             }
             break;
             }
