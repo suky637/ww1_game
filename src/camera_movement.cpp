@@ -11,11 +11,11 @@ void CameraMovement::Start()
 
 }
 
-void CameraMovement::ResetZoom(float* acc)
+void CameraMovement::ResetZoom(float* accumulation)
 {
-    float inv = 1.f / *acc;
+    float inv = 1.f / *accumulation;
     view->zoom(inv);
-    *acc = 1.f;
+    *accumulation = 1.f;
 }
 
 void CameraMovement::Update()
