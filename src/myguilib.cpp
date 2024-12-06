@@ -101,7 +101,7 @@ void Button::Input(sf::View* view)
     isClicked = false;
     // Checking if hovering
     sf::Vector2i pos = sf::Mouse::getPosition(*win);
-    sf::Vector2i a = win->mapCoordsToPixel(sf::Vector2f(pos.x, pos.y), *view);
+    sf::Vector2f a = win->mapPixelToCoords(pos, *view);
 
     if (
         a.x < this->rect.getPosition().x + this->rect.getSize().x &&
@@ -141,4 +141,43 @@ void Button::Draw(sf::Font font)
     win->draw(rect);
     label.setFont(font);
     win->draw(label);
+}
+
+Label::Label(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, int size, std::string text, std::string id)
+{
+    this->win = win;
+    this->position = pos;
+    this->label.setFont(gui.font);
+    this->label.setString(text);
+    this->label.setCharacterSize(size);
+    this->label.setPosition(pos);
+    this->label.setFillColor(sf::Color::White);
+    this->label.setStyle(sf::Text::Style::Regular);
+
+    std::string _id = id == "" ? text : id;
+
+    gui.components.insert_or_assign(_id, std::make_unique<Label>(*this));
+}
+
+void Label::Draw(sf::Font font)
+{
+    this->label.setFont(font);
+    win->draw(this->label);
+}
+
+Frame::Frame(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f size, std::string id)
+{
+    this->win = win;
+    this->position = pos;
+    this->size = size;
+    std::string _id = id == "" ? std::to_string(pos.x) + ";" + std::to_string(pos.y) : id;
+    this->rect.setPosition(pos);
+    this->rect.setSize(size);
+    this->rect.setFillColor(sf::Color(61, 61, 61));
+    gui.components.insert_or_assign(_id, std::make_unique<Frame>(*this));
+}
+
+void Frame::Draw(sf::Font font)
+{
+    win->draw(this->rect);
 }

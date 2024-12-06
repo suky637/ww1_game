@@ -16,6 +16,7 @@ class Game
     private:
     sf::RenderWindow* win;
     sf::View viewport;
+    sf::View gui_viewport;
     sf::View defaultWindow;
     std::vector<std::unique_ptr<Scene>> scenes{};
 

@@ -56,9 +56,12 @@ void Europe::Start()
 
     GUI gui = GUI{font};
     gui.window = window;
-    gui.gui_view = view;
+    gui.gui_view = gui_view;
     // adding buttons now?
+    Frame frame{window, gui, sf::Vector2f(0, 0), sf::Vector2f(260, 100), "0"};
     Button button{window, gui, sf::Vector2f(10, 10), sf::Vector2f(240, 40), "Hello, World!", "1"};
+    Label label{window, gui, sf::Vector2f(10, 50), 24, "HELLO"};
+    //Frame frame2{window, gui, sf::Vector2f(120, 100), sf::Vector2f(100, 100), "3"};
 
     scripts.push_back(std::make_unique<GUI>(std::move(gui)));
 }

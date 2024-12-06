@@ -12,6 +12,8 @@ class Script;
 class Scene
 {
     public:
+    sf::View* view;
+    sf::View* gui_view;
     float deltaTime;
     sf::RenderWindow* window;
     std::string sceneName;

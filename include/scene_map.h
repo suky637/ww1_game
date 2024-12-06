@@ -20,8 +20,6 @@ class Europe: public Scene
     sf::Font font;
     json data;
     public:
-    sf::View* view;
-    sf::View gui_view;
     std::string sceneName;
     Europe();
     void Start() override;

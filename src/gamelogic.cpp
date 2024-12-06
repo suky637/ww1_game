@@ -17,9 +17,15 @@ void Game::AdjustViewport()
     float ratio_height = (float)(desired_height) / (float)(height);
 
     if (ratio_width < 1.f)
+    {
         viewport.setViewport(sf::FloatRect((1.f - ratio_width) / 2.f, 0.f, ratio_width, 1.f));
+        gui_viewport.setViewport(sf::FloatRect((1.f - ratio_width) / 2.f, 0.f, ratio_width, 1.f));
+    }
     else
+    {
         viewport.setViewport(sf::FloatRect(0.f, (1.f - ratio_height) / 2.f, 1.f, ratio_height));
+        gui_viewport.setViewport(sf::FloatRect((1.f - ratio_width) / 2.f, 0.f, ratio_width, 1.f));
+    }
 }
 
 void Game::Begin()
@@ -27,10 +33,12 @@ void Game::Begin()
     win->setTitle("WW1 Game");
     defaultWindow = win->getView();
     viewport = win->getView();
+    gui_viewport = win->getView();
 
     Europe europe{};
     europe.window = win;
     europe.view = &viewport;
+    europe.gui_view = &gui_viewport;
     europe.Start();
     scenes.push_back(std::make_unique<Europe>(std::move(europe)));
 }

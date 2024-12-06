@@ -57,14 +57,18 @@ class Button: public Component
 
 class Label: public Component
 {
+    private:
+    sf::Text label;
     public:
-    //void Input() override;
+    Label(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, int size, std::string text, std::string id = "");
     void Draw(sf::Font font) override;
 };
 
 class Frame: public Component
 {
+    private:
+    sf::RectangleShape rect;
     public:
-    void Input(sf::View* view) override;
+    Frame(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f size, std::string id = "");
     void Draw(sf::Font font) override;
 };
