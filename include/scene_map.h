@@ -17,6 +17,7 @@ class Europe: public Scene
     private:
     std::vector<sf::ConvexShape> shapes{};
     std::vector<std::unique_ptr<Script>> scripts;
+    sf::Font font;
     json data;
     public:
     sf::View* view;

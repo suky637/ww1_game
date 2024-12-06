@@ -39,3 +39,13 @@ void Script::Draw()
 {
     
 }
+
+std::string Script::getId()
+{
+    return "null";
+}
+
+Script* Script::getScript()
+{
+    return this;
+}

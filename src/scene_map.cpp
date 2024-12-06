@@ -3,6 +3,13 @@
 
 Europe::Europe() : sceneName{"europe"}
 {
+
+    if (!font.loadFromFile("ressources/LiberationSerif-Regular.ttf"))
+    {
+        std::cerr << "Failed to load font\n";
+        exit(1);
+    }
+
     // Loading ressources
     std::fstream f{"ressources/europe.json"};
 
@@ -36,21 +43,22 @@ void Europe::Start()
 {
     //std::cout << "SIZE: " << this->shapes.size() << "\n";
 
-    gui_view = *view;
+    //gui_view = sf::View(*view);
     CameraMovement cameraMovement{};
     cameraMovement.view = view;
     cameraMovement.Start();
     scripts.push_back(std::make_unique<CameraMovement>(std::move(cameraMovement)));
 
+    //font.loadFromFile("ressources/LiberationSerif-Regular.ttf");
+    //font.
 
+    //test = sf::Text("Test", font);
 
-    GUI gui{};
+    GUI gui = GUI{font};
     gui.window = window;
     gui.gui_view = view;
-
     // adding buttons now?
-    Button button{window, sf::Vector2f(10, 10), sf::Vector2f(200, 20), "Hello, World!"};
-    gui.components.push_back(std::make_unique<Button>(std::move(button)));
+    Button button{window, gui, sf::Vector2f(10, 10), sf::Vector2f(240, 40), "Hello, World!", "1"};
 
     scripts.push_back(std::make_unique<GUI>(std::move(gui)));
 }
@@ -62,6 +70,15 @@ void Europe::Update()
         script->scroll = scroll;
         script->deltaTime = deltaTime;
         script->Update();
+
+        if (script->getId() == "GUI")
+        {
+            GUI* gui = (GUI*)script->getScript();
+            if (gui->components.at("1")->isClicked)
+            {
+                std::cout << "Works using even higher level.\n";
+            }
+        }
     }
 }
 
@@ -80,6 +97,7 @@ void Europe::Draw()
     {
         this->window->draw(shape);
     }
+    //window->draw(test);
     for (const auto& script : scripts)
     {
         script->Draw();

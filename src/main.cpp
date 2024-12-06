@@ -18,6 +18,7 @@ int main(int, char**){
     float lastTime = 0;
     float accum = 0;
     sf::Clock clock;
+
     while (window.isOpen())
     {
         float crntTime = clock.getElapsedTime().asSeconds(); 
@@ -58,6 +59,8 @@ int main(int, char**){
         
 
         game.Render();
+
+        window.display();
 
         game.scroll = 0;
         lastTime = crntTime;

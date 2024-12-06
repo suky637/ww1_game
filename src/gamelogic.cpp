@@ -72,6 +72,4 @@ void Game::Render()
     {
         scene->Draw();
     }
-
-    win->display();
 }
