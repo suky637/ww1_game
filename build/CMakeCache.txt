@@ -564,33 +564,6 @@ Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
-//imgui top-level directory
-IMGUI_DIR:PATH=
-
-//Path to a directory containing user ImGui config
-IMGUI_SFML_CONFIG_DIR:PATH=/home/suky/dev/ww1_game/ext/imgui
-
-//Path where user's config header will be installed
-IMGUI_SFML_CONFIG_INSTALL_DIR:PATH=
-
-//Name of a custom user ImGui config header
-IMGUI_SFML_CONFIG_NAME:STRING=imconfig-SFML.h
-
-//Disable obsolete ImGui functions
-IMGUI_SFML_DISABLE_OBSOLETE_FUNCTIONS:BOOL=OFF
-
-//Enable compiler warnings
-IMGUI_SFML_ENABLE_WARNINGS:BOOL=OFF
-
-//Use find_package to find SFML
-IMGUI_SFML_FIND_SFML:BOOL=ON
-
-//Build imgui_demo.cpp
-IMGUI_SFML_IMGUI_DEMO:BOOL=ON
-
-//Use default imconfig-SFML.h
-IMGUI_SFML_USE_DEFAULT_CONFIG:BOOL=ON
-
 //The JACK include directory
 JACK_INCLUDE_DIR:PATH=JACK_INCLUDE_DIR-NOTFOUND
 
@@ -741,9 +714,6 @@ SFML_BUILD_TEST_SUITE:BOOL=FALSE
 //TRUE to build SFML's Window module. This setting is ignored,
 // if the graphics module is built.
 SFML_BUILD_WINDOW:BOOL=TRUE
-
-//The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=SFML_DIR-NOTFOUND
 
 //TRUE to automatically install pkg-config files so other projects
 // can find SFML
@@ -1043,15 +1013,6 @@ alsoft-config_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 alsoft-config_SOURCE_DIR:STATIC=/home/suky/dev/ww1_game/ext/openal-soft-master/utils/alsoft-config
-
-//Value Computed by CMake
-imgui_sfml_BINARY_DIR:STATIC=/home/suky/dev/ww1_game/build/ext/imgui
-
-//Value Computed by CMake
-imgui_sfml_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-imgui_sfml_SOURCE_DIR:STATIC=/home/suky/dev/ww1_game/ext/imgui
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=/home/suky/dev/ww1_game/build/ext/json-develop
