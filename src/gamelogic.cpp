@@ -30,7 +30,17 @@ void Game::AdjustViewport()
 
 void Game::Begin()
 {
-    win->setTitle("WW1 Game");
+    std::fstream f{"ressources/window.json"};
+    json data = json::parse(f);
+
+    std::string title = data["window_name"];
+    win->setTitle(title);
+    win->setSize(sf::Vector2u(data["default_width"], data["default_height"]));
+    sf::Texture tex;
+    tex.loadFromFile(data["icon"]);
+    unsigned char* pixels = new unsigned char[tex.getSize().x * tex.getSize().y * 4];
+    tex.update(pixels, 0, 0, tex.getSize().x, tex.getSize().y);
+    win->setIcon(tex.getSize().x, tex.getSize().y, pixels);
     defaultWindow = win->getView();
     viewport = win->getView();
     gui_viewport = win->getView();
@@ -72,9 +82,6 @@ void Game::Render()
     win->clear(sf::Color::Black);
 
     win->setView(viewport);
-    sf::RectangleShape bg{sf::Vector2f{1280, 720}};
-    bg.setFillColor(sf::Color(20, 50, 100));
-    win->draw(bg);
 
     for (const auto& scene : scenes)
     {

@@ -20,11 +20,14 @@ GUI* GUI::getScript()
     return this;
 }
 
-void GUI::Update()
+void GUI::Update(bool gui_hovered)
 {
+    this->hovered = false;
     for (const auto& [k, comp] : components)
     {
         comp->Input(gui_view);
+        if (comp->isHovered(gui_view))
+            this->hovered = true;
     }
 }
 
@@ -36,4 +39,10 @@ void GUI::Draw()
         comp->Draw(font);
     }
     //std::cout << "Reached end!\n";
+}
+
+bool GUI::isClicked(std::string id)
+{
+    if (!components.contains(id)) return false;
+    return components.at(id)->isClicked;
 }

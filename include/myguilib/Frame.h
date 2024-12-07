@@ -19,4 +19,5 @@ class Frame: public Component
     public:
     Frame(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f size, std::string id = "");
     void Draw(sf::Font font) override;
+    bool isHovered(sf::View* view) override;
 };

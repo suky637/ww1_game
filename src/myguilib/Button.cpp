@@ -28,22 +28,17 @@ Button::Button(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f s
     
     gui.components.insert_or_assign(id == "" ? text : id, std::make_unique<Button>(*this));
 
-    std::cout << "Created Button Sucessfuly!\n";
+    //1std::cout << "Created Button Sucessfuly!\n";
 }
 
 void Button::Input(sf::View* view)
 {
+    static bool lastFocus = false;
+    bool crntFocus = win->hasFocus();
     isClicked = false;
     // Checking if hovering
-    sf::Vector2i pos = sf::Mouse::getPosition(*win);
-    sf::Vector2f posView = win->mapPixelToCoords(pos, *view);
 
-    if (
-        posView.x < this->rect.getPosition().x + this->rect.getSize().x &&
-        posView.x > this->rect.getPosition().x &&
-        posView.y < this->rect.getPosition().y + this->rect.getSize().y &&
-        posView.y > this->rect.getPosition().y
-    )
+    if (this->isHovered(view))
     {
         if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
         {
@@ -55,16 +50,18 @@ void Button::Input(sf::View* view)
         {
             crntClicked = false;
         }
-        if (!crntClicked && lastClick)
+        if (!crntClicked && lastClick && !((!lastFocus && crntFocus) || !crntFocus))
         {
             isClicked = true;
             lastClick = false;
         }
 
         rect.setFillColor(sf::Color(81, 81, 81));
+        lastFocus = crntFocus;
         return;
     }
     rect.setFillColor(sf::Color(91, 91, 91));
+    lastFocus = crntFocus;
 }
 
 void Button::Draw(sf::Font font)
@@ -76,4 +73,16 @@ void Button::Draw(sf::Font font)
     win->draw(rect);
     label.setFont(font);
     win->draw(label);
+}
+
+bool Button::isHovered(sf::View* view)
+{
+    sf::Vector2i pos = sf::Mouse::getPosition(*win);
+    sf::Vector2f posView = win->mapPixelToCoords(pos, *view);
+    return (
+        posView.x < this->rect.getPosition().x + this->rect.getSize().x &&
+        posView.x > this->rect.getPosition().x &&
+        posView.y < this->rect.getPosition().y + this->rect.getSize().y &&
+        posView.y > this->rect.getPosition().y
+    );
 }

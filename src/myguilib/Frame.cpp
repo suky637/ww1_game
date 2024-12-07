@@ -15,3 +15,15 @@ void Frame::Draw(sf::Font font)
 {
     win->draw(this->rect);
 }
+
+bool Frame::isHovered(sf::View* view)
+{
+    sf::Vector2i pos = sf::Mouse::getPosition(*win);
+    sf::Vector2f posView = win->mapPixelToCoords(pos, *view);
+    return (
+        posView.x < this->rect.getPosition().x + this->rect.getSize().x &&
+        posView.x > this->rect.getPosition().x &&
+        posView.y < this->rect.getPosition().y + this->rect.getSize().y &&
+        posView.y > this->rect.getPosition().y
+    );
+}

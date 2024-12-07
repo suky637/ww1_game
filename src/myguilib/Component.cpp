@@ -8,3 +8,8 @@ void Component::Draw(sf::Font font)
 {
 
 }
+
+bool Component::isHovered(sf::View* view)
+{
+    return false;
+}

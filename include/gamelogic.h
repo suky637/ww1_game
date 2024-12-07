@@ -11,6 +11,8 @@
 #include "scene_map.h"
 #include "engine.h"
 
+using json = nlohmann::json;
+
 class Game
 {
     private:

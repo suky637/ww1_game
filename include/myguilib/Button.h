@@ -24,4 +24,5 @@ class Button: public Component
     Button(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f size, std::string text, std::string id = "");
     void Input(sf::View* view) override;
     void Draw(sf::Font font) override;
+    bool isHovered(sf::View* view) override;
 };

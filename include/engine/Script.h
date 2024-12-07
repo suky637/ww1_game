@@ -14,7 +14,7 @@ class Script
     int scroll;
     
     virtual void Start();
-    virtual void Update();
+    virtual void Update(bool gui_hovered);
     virtual void FixedUpdate();
     virtual void Draw();
     virtual std::string getId();

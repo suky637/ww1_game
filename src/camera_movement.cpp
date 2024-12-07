@@ -18,8 +18,9 @@ void CameraMovement::ResetZoom(float* accumulation)
     *accumulation = 1.f;
 }
 
-void CameraMovement::Update()
+void CameraMovement::Update(bool gui_hovered)
 {
+    if (gui_hovered) return;
     static float accumulation = 1.f;
     if (scroll == 0)
     {

@@ -18,7 +18,7 @@ class CameraMovement: public Script
     sf::View* view;
     float zoom;
     void Start() override;
-    void Update() override;
+    void Update(bool gui_hovered) override;
     void FixedUpdate() override;
     void Draw() override;
 };
