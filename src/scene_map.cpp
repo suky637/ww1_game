@@ -64,6 +64,7 @@ Europe::Europe() : sceneName{"europe"}
     // Loading every countries
     for (auto country : data.at("countries"))
     {
+        isos.insert_or_assign(country["ISO"], country["name"]);
         std::cout << "Detected a country!, " << country.at("name") << "\n";
         for (auto region : country.at("regions"))
         {
@@ -197,6 +198,8 @@ void Europe::Editor(bool gui_hovered)
 void Europe::Update()
 {
     static bool gui_hovered = false;
+    static bool lastFocus = false;
+    bool crntFocus = window->hasFocus();
 
     for (const auto& script : scripts)
     {
@@ -221,20 +224,36 @@ void Europe::Update()
             gui_hovered = gui->hovered;
         }
         
-        
-        script->scroll = scroll;
-        script->deltaTime = deltaTime;
-        script->Update(gui_hovered);
+        if (!((!lastFocus && crntFocus) || !crntFocus)) {
+            script->scroll = scroll;
+            script->deltaTime = deltaTime;
+            script->Update(gui_hovered);
+        }
     }
 
-    static bool lastH = false;
-    bool crntH = sf::Keyboard::isKeyPressed(sf::Keyboard::H);
+    if (!((!lastFocus && crntFocus) || !crntFocus))
+    {
+        static bool lastH = false;
+        bool crntH = sf::Keyboard::isKeyPressed(sf::Keyboard::H);
 
-    if (!lastH && crntH) hide_placeholder = !hide_placeholder;
+        if (!lastH && crntH) hide_placeholder = !hide_placeholder;
 
-    lastH = crntH;
+        lastH = crntH;
 
-    this->Editor(gui_hovered);
+        this->Editor(gui_hovered);
+
+        // just testing something
+        for (auto shape : shapes)
+        {
+            if (Physics::PIP_Collision(shape.first, window->mapPixelToCoords(sf::Mouse::getPosition(*window), *view)) && sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
+            {
+                // Getting the country from ISO code
+                std::string iso = shape.second.getString().toAnsiString().substr(0, shape.second.getString().toAnsiString().find_first_of('_'));
+                std::cout << isos.at(iso) << "\n";
+            }
+        }
+    }
+    lastFocus = crntFocus;
 }
 
 void Europe::FixedUpdate()

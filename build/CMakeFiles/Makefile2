@@ -312,12 +312,12 @@ CMakeFiles/ww1_game.dir/clean:
 ext/openal-soft-master/CMakeFiles/alsoft.common.dir/all:
 	$(MAKE) $(MAKESILENT) -f ext/openal-soft-master/CMakeFiles/alsoft.common.dir/build.make ext/openal-soft-master/CMakeFiles/alsoft.common.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/openal-soft-master/CMakeFiles/alsoft.common.dir/build.make ext/openal-soft-master/CMakeFiles/alsoft.common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=41,42,43,44 "Built target alsoft.common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=40,41,42,43,44 "Built target alsoft.common"
 .PHONY : ext/openal-soft-master/CMakeFiles/alsoft.common.dir/all
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/alsoft.common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/alsoft.common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/alsoft.common.dir/rule
@@ -370,7 +370,7 @@ ext/openal-soft-master/CMakeFiles/OpenAL.dir/all: ext/openal-soft-master/fmt-11.
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/OpenAL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 43
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/OpenAL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/OpenAL.dir/rule
@@ -396,7 +396,7 @@ ext/openal-soft-master/CMakeFiles/openal-info.dir/all: ext/openal-soft-master/CM
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/openal-info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/openal-info.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/openal-info.dir/rule
@@ -422,7 +422,7 @@ ext/openal-soft-master/CMakeFiles/alsoft.excommon.dir/all: ext/openal-soft-maste
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/alsoft.excommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 44
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/alsoft.excommon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/alsoft.excommon.dir/rule
@@ -449,7 +449,7 @@ ext/openal-soft-master/CMakeFiles/altonegen.dir/all: ext/openal-soft-master/CMak
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/altonegen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/altonegen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/altonegen.dir/rule
@@ -471,7 +471,7 @@ ext/openal-soft-master/CMakeFiles/alrecord.dir/all: ext/openal-soft-master/CMake
 ext/openal-soft-master/CMakeFiles/alrecord.dir/all: ext/openal-soft-master/CMakeFiles/alsoft.excommon.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/openal-soft-master/CMakeFiles/alrecord.dir/build.make ext/openal-soft-master/CMakeFiles/alrecord.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/openal-soft-master/CMakeFiles/alrecord.dir/build.make ext/openal-soft-master/CMakeFiles/alrecord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=40 "Built target alrecord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num= "Built target alrecord"
 .PHONY : ext/openal-soft-master/CMakeFiles/alrecord.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +504,7 @@ ext/openal-soft-master/CMakeFiles/aldebug.dir/all: ext/openal-soft-master/fmt-11
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/aldebug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/aldebug.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/aldebug.dir/rule
@@ -533,7 +533,7 @@ ext/openal-soft-master/CMakeFiles/allafplay.dir/all: ext/openal-soft-master/fmt-
 
 # Build rule for subdir invocation for target.
 ext/openal-soft-master/CMakeFiles/allafplay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/openal-soft-master/CMakeFiles/allafplay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/openal-soft-master/CMakeFiles/allafplay.dir/rule
@@ -632,12 +632,12 @@ ext/SFML-2.6.2/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/all: ext/SFML-2.6.2/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=71,72,73,74 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=70,71,72,73,74 "Built target sfml-network"
 .PHONY : ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
 ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/SFML-2.6.2/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
@@ -659,12 +659,12 @@ ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: ext/SFML-2.6.
 ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: ext/SFML-2.6.2/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(MAKE) $(MAKESILENT) -f ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suky/dev/ww1_game/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69 "Built target sfml-graphics"
 .PHONY : ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
 ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/SFML-2.6.2/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -691,7 +691,7 @@ ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: ext/SFML-2.6.2/src/
 
 # Build rule for subdir invocation for target.
 ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 59
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suky/dev/ww1_game/build/CMakeFiles 0
 .PHONY : ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule

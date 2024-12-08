@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o"
+  "CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o.d"
   "CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o"
   "CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o.d"
   "CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.o"

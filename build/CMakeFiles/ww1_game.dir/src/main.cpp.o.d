@@ -411,4 +411,5 @@ CMakeFiles/ww1_game.dir/src/main.cpp.o: \
  /home/suky/dev/ww1_game/include/myguilib/Component.h \
  /home/suky/dev/ww1_game/include/myguilib/GUI.h \
  /home/suky/dev/ww1_game/include/myguilib/Frame.h \
- /home/suky/dev/ww1_game/include/myguilib/Label.h
+ /home/suky/dev/ww1_game/include/myguilib/Label.h \
+ /home/suky/dev/ww1_game/include/Physics/PIP.h

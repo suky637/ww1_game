@@ -389,6 +389,30 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make ext/SFML-2.6.2/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
+src/Physics/PIP.o: src/Physics/PIP.cpp.o
+.PHONY : src/Physics/PIP.o
+
+# target to build an object file
+src/Physics/PIP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o
+.PHONY : src/Physics/PIP.cpp.o
+
+src/Physics/PIP.i: src/Physics/PIP.cpp.i
+.PHONY : src/Physics/PIP.i
+
+# target to preprocess a source file
+src/Physics/PIP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.i
+.PHONY : src/Physics/PIP.cpp.i
+
+src/Physics/PIP.s: src/Physics/PIP.cpp.s
+.PHONY : src/Physics/PIP.s
+
+# target to generate assembly for a file
+src/Physics/PIP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ww1_game.dir/build.make CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.s
+.PHONY : src/Physics/PIP.cpp.s
+
 src/camera_movement.o: src/camera_movement.cpp.o
 .PHONY : src/camera_movement.o
 
@@ -707,6 +731,9 @@ help:
 	@echo "... sfml-system"
 	@echo "... sfml-window"
 	@echo "... ww1_game"
+	@echo "... src/Physics/PIP.o"
+	@echo "... src/Physics/PIP.i"
+	@echo "... src/Physics/PIP.s"
 	@echo "... src/camera_movement.o"
 	@echo "... src/camera_movement.i"
 	@echo "... src/camera_movement.s"

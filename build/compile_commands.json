@@ -60,6 +60,11 @@
   "file": "/home/suky/dev/ww1_game/src/engine/Script.cpp"
 },
 {
+  "directory": "/home/suky/dev/ww1_game/build",
+  "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/include -I/home/suky/dev/ww1_game/ext/SFML-2.6.2/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/ext/openal-soft-master/include/AL -I/home/suky/dev/ww1_game/ext/json-develop/include -g -std=gnu++20 -o CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o -c /home/suky/dev/ww1_game/src/Physics/PIP.cpp",
+  "file": "/home/suky/dev/ww1_game/src/Physics/PIP.cpp"
+},
+{
   "directory": "/home/suky/dev/ww1_game/build/ext/openal-soft-master",
   "command": "/usr/bin/c++  -I/home/suky/dev/ww1_game/ext/openal-soft-master/include -I/home/suky/dev/ww1_game/build/ext/openal-soft-master -I/home/suky/dev/ww1_game/ext/openal-soft-master/common -g -fPIC -fvisibility=hidden -Winline -Wunused -Wall -Wextra -Wshadow -Wconversion -Wcast-align -Wpedantic -Wold-style-cast -Wnon-virtual-dtor -Woverloaded-virtual -Wno-c++20-attribute-extensions -Wno-interference-size -Werror=undef -fno-math-errno -pthread -std=gnu++17 -o CMakeFiles/alsoft.common.dir/common/alassert.cpp.o -c /home/suky/dev/ww1_game/ext/openal-soft-master/common/alassert.cpp",
   "file": "/home/suky/dev/ww1_game/ext/openal-soft-master/common/alassert.cpp"

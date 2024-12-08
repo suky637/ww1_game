@@ -55,7 +55,6 @@ void Game::Begin()
 
 void Game::Update(float dt)
 {
-    //std::cout << "UPDATE\n";
     for (const auto& scene : scenes)
     {
         scene->scroll = scroll;
@@ -63,7 +62,6 @@ void Game::Update(float dt)
         scene->Update();
     }
     sf::Vector2f mouseCoord = win->mapPixelToCoords(sf::Mouse::getPosition(*win), viewport);
-    //std::cout << mousePix.x << ", " << mousePix.y << "\n";
 }
 
 void Game::FixedUpdate()

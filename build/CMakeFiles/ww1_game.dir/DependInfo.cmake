@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/suky/dev/ww1_game/src/Physics/PIP.cpp" "CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o" "gcc" "CMakeFiles/ww1_game.dir/src/Physics/PIP.cpp.o.d"
   "/home/suky/dev/ww1_game/src/camera_movement.cpp" "CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o" "gcc" "CMakeFiles/ww1_game.dir/src/camera_movement.cpp.o.d"
   "/home/suky/dev/ww1_game/src/engine/EngineFunctions.cpp" "CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.o" "gcc" "CMakeFiles/ww1_game.dir/src/engine/EngineFunctions.cpp.o.d"
   "/home/suky/dev/ww1_game/src/engine/Scene.cpp" "CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.o" "gcc" "CMakeFiles/ww1_game.dir/src/engine/Scene.cpp.o.d"
