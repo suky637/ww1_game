@@ -5,10 +5,13 @@
 #include <nlohmann/json.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
+#include <vector>
+#include <map>
 
 #include "engine.h"
 #include "camera_movement.h"
 #include "myguilib.h"
+#include "Physics/PIP.h"
 
 using json = nlohmann::json;
 
@@ -29,6 +32,7 @@ class Europe: public Scene
     bool hide_placeholder = false;
     std::vector<std::pair<sf::ConvexShape, sf::Text>> shapes{};
     std::vector<std::unique_ptr<Script>> scripts;
+    std::map<std::string, std::string> isos{};
     sf::Font font;
     json data;
     json game_json;

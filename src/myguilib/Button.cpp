@@ -33,8 +33,6 @@ Button::Button(sf::RenderWindow* win, GUI& gui, sf::Vector2f pos, sf::Vector2f s
 
 void Button::Input(sf::View* view)
 {
-    static bool lastFocus = false;
-    bool crntFocus = win->hasFocus();
     isClicked = false;
     // Checking if hovering
 
@@ -50,18 +48,17 @@ void Button::Input(sf::View* view)
         {
             crntClicked = false;
         }
-        if (!crntClicked && lastClick && !((!lastFocus && crntFocus) || !crntFocus))
+        if (!crntClicked && lastClick)
         {
             isClicked = true;
             lastClick = false;
         }
 
         rect.setFillColor(sf::Color(81, 81, 81));
-        lastFocus = crntFocus;
         return;
     }
     rect.setFillColor(sf::Color(91, 91, 91));
-    lastFocus = crntFocus;
+    
 }
 
 void Button::Draw(sf::Font font)

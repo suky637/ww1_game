@@ -29,6 +29,7 @@ add_executable(ww1_game
     src/engine/EngineFunctions.cpp
     src/engine/Scene.cpp
     src/engine/Script.cpp
+    src/Physics/PIP.cpp
 )
 
 target_link_libraries(ww1_game sfml-audio sfml-graphics sfml-window sfml-system OpenAL nlohmann_json)
